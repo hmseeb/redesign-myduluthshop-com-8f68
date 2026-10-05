@@ -816,6 +816,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   margin-bottom: 20px;
   font-size: .92rem;
 }
+.formnote[hidden] { display: none; }
 .formnote strong { font-family: var(--ff-display); font-size: 1.02rem; }
 .formnote--ok {
   background: #e8f8ee;
