@@ -551,9 +551,9 @@
         <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> Special offers</p>
         <h2 id="offersTitle" class="sechead__title">Ask about current<br>special offers</h2>
         <p>
-          We run specials on service and repair work throughout the year. Send us your name and
-          number and we'll let you know what's currently available for your vehicle — no obligation,
-          and no padded list of extra work.
+          We run specials on service and repair work throughout the year. Ask about them when you
+          send your service request and we'll let you know what's currently available for your
+          vehicle — no obligation, and no padded list of extra work.
         </p>
         <ul class="ticks ticks--tight">
           <li>Tell us your vehicle and the service you're after</li>
@@ -562,49 +562,18 @@
         </ul>
       </div>
 
-      <!-- FORM 1: Offers / callback -->
-      <div class="card card--form">
+      <!-- Offers call to action → the single service request form -->
+      <div class="card card--main">
         <h3 class="card__title">Request current offers</h3>
-        <p class="card__sub">Quick callback — two fields and your vehicle.</p>
+        <p class="card__sub">
+          Use the service request form below — tell us your vehicle and the service you're after,
+          and we'll come back with the offers that apply.
+        </p>
 
-        <div class="formnote formnote--ok" data-success hidden role="status">
-          <strong>Thanks, your message was sent.</strong>
-          <span>We'll get back to you with the offers that apply to your vehicle.</span>
-        </div>
-        <div class="formnote formnote--err" data-error hidden role="alert">
-          <strong>That didn't go through.</strong>
-          <span>Please try again, or call us on (678) 329-2142.</span>
-        </div>
-
-        <form class="form form--compact"
-              method="POST"
-              action="https://vision.leadrai.com/api/forms/425c77749fe5fc020f03ada3ad5ccc97"
-              data-leadr-form
-              novalidate>
-          <input type="hidden" name="_form" value="Special offers">
-          <input type="hidden" name="_page" value="" data-page-field>
-          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
-
-          <div class="field">
-            <label for="o-name">Your name</label>
-            <input id="o-name" type="text" name="name" required autocomplete="name" placeholder="Jane Doe">
-          </div>
-          <div class="field">
-            <label for="o-phone">Phone</label>
-            <input id="o-phone" type="tel" name="phone" required autocomplete="tel" placeholder="(678) 000-0000">
-          </div>
-          <div class="field">
-            <label for="o-vehicle">Vehicle</label>
-            <input id="o-vehicle" type="text" name="Vehicle" autocomplete="off" placeholder="2017 BMW 340i">
-          </div>
-          <div class="field">
-            <label for="o-service">Service needed</label>
-            <input id="o-service" type="text" name="Service needed" autocomplete="off" placeholder="Brakes, oil change, diagnostics…">
-          </div>
-
-          <button class="btn btn--primary btn--full" type="submit">Send my request</button>
-          <p class="form__fine">We'll only use your details to get back to you about your vehicle.</p>
-        </form>
+        <a class="btn btn--primary btn--full" href="#contact">Schedule my Service Now!</a>
+        <p class="form__fine" style="margin-top:14px">
+          Prefer to talk it through? Call <a href="tel:+16783292142">(678) 329-2142</a> during opening hours.
+        </p>
       </div>
     </div>
   </section>
