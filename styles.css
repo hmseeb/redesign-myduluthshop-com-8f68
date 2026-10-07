@@ -1034,9 +1034,8 @@ ul { margin: 0; padding: 0; list-style: none; }
    Responsive
    ========================================================================== */
 
-@media (min-width: 560px) {
-  .brand__text { display: flex; }
-}
+/* The logo artwork already contains the "Duluth Auto · Service & Imports"
+   wordmark, so the adjacent text lockup stays hidden to avoid duplication. */
 
 @media (max-width: 1060px) {
   .nav__list { gap: 0; }
